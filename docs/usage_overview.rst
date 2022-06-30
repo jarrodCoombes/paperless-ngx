@@ -196,6 +196,12 @@ These are as follows:
     You can define catch-all rules and have them executed last to consume
     any documents not matched by previous rules. Such a rule may assign an "Unknown
     mail document" tag to consumed documents so you can inspect them further.
+    
+.. note::
+   For Gmail you will need to enable iMAP support, but you will also need to create an
+   application password. Go to your Google account settings, then select Security on the
+   left hand side. From there scroll down to App Passwords. From there you can create a 
+   app specific password for Paperless to use.
 
 Paperless is set up to check your mails every 10 minutes. This can be configured on the
 'Scheduled tasks' page in the admin.
